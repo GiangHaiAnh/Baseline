@@ -1,9 +1,9 @@
 # Nguyên tắc viết commit message
 Format như sau : 
 ```
-dòng 1: thông tin cơ bản về nội dung thay đổi ( title, tóm tắt, ... )
-dòng 2: khoảng trắng
-dòng 3 trở đi: Lý do thay đổi, nội dung thay đổi cụ thể, ... 
+Dòng 1: thông tin cơ bản về nội dung thay đổi ( title, tóm tắt, ... )
+Dòng 2 (Nếu có): khoảng trắng
+Dòng 3 trở đi (Nếu có): Lý do thay đổi, nội dung thay đổi cụ thể, ... 
 ```
 
 Tiếng Anh, tiếng Nhật đều được, nhưng 1 project thì dùng thống nhất 1 ngôn ngữ thôi. Và không dùng tiếng Việt nhé =))
@@ -44,15 +44,19 @@ Ví dụ với dự án có frontend, backend, payment, ... thì có thể phân
 
 Tuy nhiên, cần phải định nghĩa chung cách phân loại từ đầu mỗi dự án để tất cả mọi người cùng tuân theo.
 
-### Tóm tắt
-`[động từ] [danh từ] [trợ từ/phó từ] [#{issue ID}] `
+### Phần nội dung title
+`Động từ + danh từ + #{issue ID}`
 Tóm tắt nội dung của những thay đổi trong commit 1 cách ngắn gọn. Theo 1 số quy ước khác thì dòng này sẽ không quá 80 kí tự. Ngoài ra cũng nên hạn chế sử dụng từ chuyên môn. 
 
 Nếu project sử dụng issue của github thì cuối dòng phải thêm `#{issue ID}` để tận dụng 1 số tiện ích của github. 
 
-## Dòng 3
-Giải thích nội dung, lý do, những thay đổi trong commit. 
-Cố gắng giải thích đơn giản và dễ hiểu. Nếu dùng redmine thì có thể ... paste cả cái link redmine vào đây cho dễ hiểu :D. 
+### Ví dụ 1 commit message :
+
+[Add]Add project readme #012345
+
+[Modify]Change library AB to version 1.2.0 in setting
+
+
 
 # Tiếng Anh trong commit 
 ## Các từ tiếng Anh hay dùng
@@ -63,26 +67,26 @@ Cố gắng giải thích đơn giản và dễ hiểu. Nếu dùng redmine thì
 
 Động từ để ở thì hiện tại. 
 
-|ý nghĩa|từ|
-|---|---|
-|tạo mới|create|
-|xoá|remove, delete|
-|cập nhật|update|
-|cập nhật(version)|upgrade|
-|thêm|add|
-|sử dụng|use|
-|bao gồm|include|
-|sửa|modify|
-|sửa (bugs)|fix (a bug)|
-|thay đổi|change|
-|di chuyển|move|
-|ghi đè|replace|
-|mở rộng|extend|
-|sử dụng/không sử dụng|enable/disable|
-|chỉnh lý|clean|
-|liên kết|link|
-|gửi|send|
-|mở/đóng|open/close|
+| ý nghĩa               | từ             |
+| --------------------- | -------------- |
+| tạo mới               | create         |
+| xoá                   | remove, delete |
+| cập nhật              | update         |
+| cập nhật(version)     | upgrade        |
+| thêm                  | add            |
+| sử dụng               | use            |
+| bao gồm               | include        |
+| sửa                   | modify         |
+| sửa (bugs)            | fix (a bug)    |
+| thay đổi              | change         |
+| di chuyển             | move           |
+| ghi đè                | replace        |
+| mở rộng               | extend         |
+| sử dụng/không sử dụng | enable/disable |
+| chỉnh lý              | clean          |
+| liên kết              | link           |
+| gửi                   | send           |
+| mở/đóng               | open/close     |
 
 Những từ trừu tượng như implement, improve, support thì không nên dùng. 
 
@@ -95,15 +99,15 @@ bug, typo, changelog, config, settings, format, description, argument
 
 Những bổ ngữ hay dùng : 
 
-|ý nghĩa|từ|
-|---|---|
-|vì ..., trong ...|for ...|
-|cùng với...|with ...|
-|vượt qua...|over ...|
-|trong...|in ...|
-|thông qua...|via ...|
-|từ ... đến ...|from ... to ...|
-|thay thế cho...|instead of ...|
-|nếu cần|if necessary|
-|...trước/sau|before .../after ...|
+| ý nghĩa           | từ                   |
+| ----------------- | -------------------- |
+| vì ..., trong ... | for ...              |
+| cùng với...       | with ...             |
+| vượt qua...       | over ...             |
+| trong...          | in ...               |
+| thông qua...      | via ...              |
+| từ ... đến ...    | from ... to ...      |
+| thay thế cho...   | instead of ...       |
+| nếu cần           | if necessary         |
+| ...trước/sau      | before .../after ... |
 
