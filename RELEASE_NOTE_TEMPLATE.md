@@ -4,22 +4,15 @@
 ## Version v1.0.0 - Nov 22nd, 2018
 ### New features:
 Set up environment
-
 Authentication
-
 Video player
-
 Video management (upload, edit, delete video)
-
 User profile, Search videos, Home screen, Trending screen
-
 - [#111111](https://dev.framgia.com/issues/)
 - [#222222](https://dev.framgia.com/issues/)
 - [#333333](https://dev.framgia.com/issues/)
 - [#444444](https://dev.framgia.com/issues/)
 - [#555555](https://dev.framgia.com/issues/)
-
-
 
 ### Various dependency updates:
 - List libraries and frameworks: 
